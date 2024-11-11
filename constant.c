@@ -1,0 +1,12 @@
+const int P = 64;
+const int B = 2;
+const int S = 8;
+//const int V = 16;
+const int G = 16;
+//const int H = 8;
+const int R = 8;//rows of values
+const int C = 8;//cols of values
+const int h_col[16] = {0,0,0,0,4,4,4,4,0,0,0,0,4,4,4,4};
+const int h_row[16] = {0,1,2,3,0,1,2,3,4,5,6,7,4,5,6,7};
+const int v_col[16] = {0,1,2,3,4,5,6,7,0,1,2,3,4,5,6,7};
+const int v_row[16] = {0,0,0,0,0,0,0,0,4,4,4,4,4,4,4,4};
